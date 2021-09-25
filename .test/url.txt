@@ -1,0 +1,8 @@
+	[URL List]
+
+{Main URL}
+https://cracker911181.github.io/
+
+{index.html}
+https://cracker911181.github.io/index.html
+
