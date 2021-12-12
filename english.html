@@ -9,153 +9,38 @@
   <title>📥 English Movie Downloader 📥</title>
   
   
-  
-  
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
 
-
+ <link rel="stylesheet" type="text/css" href="style.css" >
+ 
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" >
+  
 <head>
 
-<style>
 
-body{
-  background-color: black;
-}
-
-.clearfix::after {
-visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
-
-
-.loadpad{
-  
-  padding: 200px;
-  padding-left: 110px;
-  
-  
-  
-}
-.loader {
-  
-  border: 10px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 10px solid blue;
-  border-bottom: 10px solid blue;
-  width: 70px;
-  height: 70px;
-  -webkit-animation: spin 2s linear 0;
-  animation: spin 2s linear 3;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-
-
-
-
-html, body {
-    height:100%;
-    width:100%;
-    margin:0;
-    padding:0;
- 
-}
-
-#hideMe {
-    -moz-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Firefox */
-    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Safari and Chrome */
-    -o-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Opera */
-    animation: cssAnimation 0s ease-in 6s forwards;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-@keyframes cssAnimation {
-    to {
-        width:0;
-        height:0;
-        overflow:hidden;
-    }
-}
-@-webkit-keyframes cssAnimation {
-    to {
-        width:0;
-        height:0;
-        visibility:hidden;
-    }
-}
-
-
-.button {
- 
-  
-  
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  background-color: rgba(0, 255, 252, 0.05);
-  background-image: -webkit-linear-gradient(rgba(0, 192, 255, 0.05), rgba(0, 192, 255, 0), rgba(0, 192, 255, 0.05));
-  background-image: -moz-linear-gradient(rgba(0, 192, 255, 0.05), rgba(0, 192, 255, 0), rgba(0, 192, 255, 0.05));
-  background-image: -o-linear-gradient(rgba(0, 192, 255, 0.05), rgba(0, 192, 255, 0), rgba(0, 192, 255, 0.05));
-  border: 1px solid #2ACBF3;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 0 16px rgba(0, 192, 255, 0.3), inset 0 0 20px rgba(0, 192, 255, 0.3);
-  -moz-box-shadow: 0 0 16px rgba(0, 192, 255, 0.3), inset 0 0 20px rgba(0, 192, 255, 0.3);
-  box-shadow: 0 0 16px rgba(0, 192, 255, 0.3), inset 0 0 20px rgba(0, 192, 255, 0.3);
-  -webkit-transition: border 200ms ease, -webkit-transform 0s ease;
-  -moz-transition: border 200ms ease, -moz-transform 0s ease;
-  -o-transition: border 200ms ease, -o-transform 0s ease;
-  outline: none;
-  text-align: left;
-  font-size: 15px;
-  color: #fff;
-  padding: 10px;
-  width: 200px;
-  font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
-}
-
-
-.centr{
-  padding: 20px;
-  padding-left: 100px;
-}
-
-.nol{
-	padding-bottom: 10000000000000px;
-}
-</style>
 
 </head>
 
 <body>
   
+  <div id="loader"></div>
+  
+  
+  
+  
   
 <div id="hideMe">
 <div class="loadpad">
   <font face="Josefin Sans" color="orange"> Loading Webpage..... <br><br></font>
-<div class="loader">
-<div class="nol">
+<div class="loader" data-aos="fade-up">
+
 </div>
 </div>
-</div></div>
+
+</div>
 
 <pre style="color:cyan;">
    _____             _ _     _
@@ -178,14 +63,91 @@ html, body {
 -->
 
 
-<div class="centr" text-align="center">
+<div class="centr" data-aos="fade-up">
 
 <button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
+</div>
+<div class="nol" >
 <p id="avengers_infinity" style="color:red;"></p>
+</div>
 
   
+<div class="centr"  data-aos="fade-up">
 
+<button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
 </div>
+<div class="nol" >
+<p id="avengers_infinity" style="color:red;"></p>
+</div>
+
+
+
+<div class="centr"  data-aos="fade-up">
+
+<button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
+</div>
+<div class="nol" >
+<p id="avengers_infinity" style="color:red;"></p>
+</div>
+
+<div class="centr"  data-aos="fade-up">
+
+<button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
+</div>
+<div class="nol" >
+<p id="avengers_infinity" style="color:red;"></p>
+</div>
+
+
+<div class="centr"  data-aos="fade-up">
+
+<button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
+</div>
+<div class="nol" >
+<p id="avengers_infinity" style="color:red;"></p>
+</div>
+
+
+<div class="centr"  data-aos="fade-up">
+
+<button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
+</div>
+<div class="nol">
+<p id="avengers_infinity" style="color:red;"></p>
+</div>
+
+
+
+<div class="centr"  data-aos="fade-up">
+
+<button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
+</div>
+<div class="nol">
+<p id="avengers_infinity" style="color:red;"></p>
+</div>
+
+
+
+<div class="centr"  data-aos="fade-up">
+
+<button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
+</div>
+<div class="nol" >
+<p id="avengers_infinity" style="color:red;"></p>
+</div>
+
+
+
+<div class="centr"  data-aos="zoom-in">
+
+<button onclick="myFunction()"  class="button" style="text-align:center; color:cyan;">Avengers Infinity War</button>
+</div>
+<div class="nol">
+<p id="avengers_infinity" style="color:red;"></p>
+</div>
+
+
+
 
 
 
@@ -196,6 +158,10 @@ html, body {
   
 </script>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 
 </head>
