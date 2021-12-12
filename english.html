@@ -24,7 +24,7 @@
 
 </head>
 
-<body>
+<body onload="myFunction2()">  
   
   <div id="loader"></div>
   
@@ -149,6 +149,12 @@
 
 
 
+<script>
+  var preload = document.getElementById('loader')
+  function myFunction2(){
+    preload.style.display = 'none'
+  }
+</script>
 
 
 <script>
