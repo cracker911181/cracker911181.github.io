@@ -1,143 +1,301 @@
+{
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+  body {
+    
+    background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url('../img/main.png');
+    /*background-repeat: no-repeat;*/
+   background-size: cover;
+  
+}
 
 
-#loader{
-  position: fixed;
+nav {
+  
   width: 100%;
-  height: 100vh;
-  background: #fff 
-  url('https://f.top4top.io/p_2172bnmka0.gif' )
-  no-repeat center;
- no-repeat center center;	
-	z-index: 99999;
-}
-  
-  body {background-color: black;}
-
-.clearfix::after {
-visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
-
-
-.loadpad{
-  
-  padding: 200px;
-  padding-left: 110px;
-  
-  
-  
-}
-.loader {
-  
-  border: 10px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 10px solid blue;
-  border-bottom: 10px solid blue;
-  width: 70px;
-  height: 70px;
-  
-  -webkit-animation: spin 2s linear 0;
-  animation: spin 2s linear 3;
+  height: 10vh;
+ justify-content: space-between;
+  /*background: black;*/
+  /*color: white;*/
   
 }
 
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-
-
-
-
-html, body {
-    height:100%;
-    width:100%;
-    margin:0;
-    padding:0;
- 
-}
-
-#hideMe {
-    -moz-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Firefox */
-    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Safari and Chrome */
-    -o-animation: cssAnimation 0s ease-in 5s forwards;
-    /* Opera */
-    animation: cssAnimation 0s ease-in 0s forwards;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-@keyframes cssAnimation {
-    to {
-        width:0;
-        height:0;
-        overflow:hidden;
-    }
-}
-@-webkit-keyframes cssAnimation {
-    to {
-        width:0;
-        height:0;
-        visibility:hidden;
-    }
-}
-
-
-.button {
- 
+nav p{
+  color: cyan;
   
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+  text-shadow: 10px 10px 10px;
+}
+
+
+/*
+
+The Flaxing Ring*/
+
+/*
+nav h3::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+@keyframes ring {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+*/
+
+
+nav button{
   
   color: white;
-  -webkit-font-smoothing: antialiased;
-  background-color: rgba(0, 255, 252, 0.05);
-  background-image: -webkit-linear-gradient(rgba(0, 192, 255, 0.05), rgba(0, 192, 255, 0), rgba(0, 192, 255, 0.05));
-  background-image: -moz-linear-gradient(rgba(0, 192, 255, 0.05), rgba(0, 192, 255, 0), rgba(0, 192, 255, 0.05));
-  background-image: -o-linear-gradient(rgba(0, 192, 255, 0.05), rgba(0, 192, 255, 0), rgba(0, 192, 255, 0.05));
-  border: 1px solid #2ACBF3;
-  -moz-border-radius: 5px;
+
+  background-color: black;
+ 
+   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 16px rgba(0, 192, 255, 0.3), inset 0 0 20px rgba(0, 192, 255, 0.3);
-  -moz-box-shadow: 0 0 16px rgba(0, 192, 255, 0.3), inset 0 0 20px rgba(0, 192, 255, 0.3);
-  box-shadow: 0 0 16px rgba(0, 192, 255, 0.3), inset 0 0 20px rgba(0, 192, 255, 0.3);
-  -webkit-transition: border 200ms ease, -webkit-transform 0s ease;
-  -moz-transition: border 200ms ease, -moz-transform 0s ease;
-  -o-transition: border 200ms ease, -o-transform 0s ease;
+  
   outline: none;
   text-align: left;
   font-size: 15px;
-  color: #fff;
+  
   padding: 10px;
-  width: 200px;
-  font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
-  
+  width: 169px;
+  font-family: 'Roboto Mono', monospace;
+  border-color: black;
+font-style: bold;
 }
 
 
-.centr{
-  padding: 20px;
-  padding-left: 100px;
+
+footer input{
+  
+  background-position: 100px 100px 100px;
+  
+  background-color: black;
+    outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s;
+	cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  color:white;
 }
 
-.nol  {
-  padding-left: 20px;
+
+footer a{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.blank{
   
+  color: white;
+  
+  
+   -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 200px;
+  width:200px;
+  
+  
+  -webkit-animation: 0.5s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 0.5s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
   }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
 
-
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 
 
 
+
+.wel{
+  font-size: 20px;
+  text-align: center;
+  color:rgb(2,125,148);
+  text-transform: uppercase;
+  text-shadow: 10px 10px 10px;
+  
+}
+
+
+.break{
+  
+  padding-left: 30px;
+}
+
+main{
+  height: 15vh;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
+
+
+main button{
+  background-color: cyan;
+  
+   
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  padding: 10px;
+  border-color: cyan;
+}
+
+
+
+main input{
+  background-color: cyan;
+  
+   
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  border-color: cyan;
+}
+
+main input:active, main input:hover, main input:focus {
+	outline: none !important;
+	color: white;
+}
+
+main button:active, main button:hover, main button:focus {
+	outline: none !important;
+	color: white;
+}
+
+
+
+
+/* Picture */
+
+
+
+.pic1{
+  width: 100%;
+  height: 40vh;
+  background-image: url(../img/img1.png);
+    -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.pic2{
+  width: 100%;
+  height: 40vh;
+  background-image: url(../img/img2.png);
+    -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.pic3{
+  width: 100%;
+  height: 40vh;
+  background-image: url(../img/img3.png);
+    -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.pic4{
+  width: 100%;
+  height: 40vh;
+  background-image: url(../img/img4.png);
+    -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-size: cover;
+}
+
+  .pic5{
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/img5.png);
+      -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background-size: cover;
+  }
+  
+  .pic6{
+  width: 100%;
+  height: 40vh;
+  background-image: url(../img/img6.png);
+    -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-size: cover;
+}
 
