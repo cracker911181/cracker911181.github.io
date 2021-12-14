@@ -5,6 +5,7 @@
     /*background-repeat: no-repeat;*/
    background-size: 100% 100%;
   
+  
 }
 
 
@@ -244,7 +245,7 @@ main button:active, main button:hover, main button:focus {
     -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .pic2{
@@ -254,7 +255,7 @@ main button:active, main button:hover, main button:focus {
     -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .pic3{
@@ -264,7 +265,7 @@ main button:active, main button:hover, main button:focus {
     -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .pic4{
@@ -274,7 +275,7 @@ main button:active, main button:hover, main button:focus {
     -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
   .pic5{
@@ -284,7 +285,7 @@ main button:active, main button:hover, main button:focus {
       -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    background-size: 100% 100%;
+    background-size: cover;
   }
   
   .pic6{
