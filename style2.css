@@ -198,3 +198,47 @@ fuck button{
    background: #9f7f5e;
 }
 
+
+
+.buttonn2{
+  
+  height: 50px;
+  align-self: center;
+  padding-top: 10px;
+  background-position: 100px 100px 100px;
+  
+  
+    outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: #9e769e;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+   background: #9e769e;
+
+}
+
+
+#player_f{
+  padding-top: 20vh ; /*22 */
+  padding-bottom: 70vh;
+  text-align: center;
+}
+
+
+#player{
+  border-color: black;
+  background-color: rgb(15,236,251);
+  box-shadow: 5px 5px 5px;
+  box-shadow: color(red);
+}

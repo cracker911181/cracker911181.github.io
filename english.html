@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta meta name="viewport" content="width=device-width, user-scalable=no" />
+   <meta meta name="viewport" content="width=device-width, user-scalable=no" />
 
     <title></title>
+    
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+
 <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="style2.css">
   </head>
+  
+  
+  
+  
+  
+  
   <body>
     
     <header>
@@ -39,22 +52,29 @@ Description:
   
   
   
-  
+<!-- BOTTON -->
+
+
+
   
   
 <div class="hide"><fuck><button>
     Spiderman: No way Home
  </button></fuck><br><br>
-  <a href="https://drive.google.com/u/1/uc?export=download&confirm=QaRJ&id=1985rCn_L2dSYH5WiUqsltX0-Kime4E88">
-    <button class="buttonn">
-Download 
-</button></a></div>
+  <a href="#player_f"><button class="buttonn2" onclick="p1()">
+   play
+ </button><span>
+  <a href="https://google.com">
+    <button class="buttonn">Download</button></a></span></div>
   
 
 <div class="hide"><fuck><button>
-    Spiderman: No way Home
+    Avengers Infinity War 
  </button></fuck><br><br>
-  <a href="https://drive.google.com/u/1/uc?export=download&confirm=QaRJ&id=1985rCn_L2dSYH5WiUqsltX0-Kime4E88">
+ <a href="#player_f"><button class="buttonn2" onclick="p2()">
+   play
+ </button></a>
+  <a href="https://facebook.com">
     <button class="buttonn">
 Download 
 </button></a></div>
@@ -63,6 +83,67 @@ Download
   
   
   
+  
+
+
+
+
+
+<!-- Footer  Video Player -->
+
+
+
+<div id="player_f"> 
+<h3 style="text-align: center; color: orange; font-family: 'Share Tech Mono', monospace;"> VIDEO PLAYER</h3>
+
+<footer>
+<iframe id="player" src="" height="170px" weight="240px">
+  
+</iframe>
+</footer>
+</div>
+
+
+
+<!-- Video Player Ended -->
+  
+  
+  
+  
+
+
+<!-- Java Script -->
+
+
+
+
+
+
+
+<!-- Java Script Code space -->
+
+
+
+<script>
+  function ver(url)
+  {
+    alert("Your Video is Loading! Please wait...")
+    document.getElementById("player").src=url; 
+  }
+ 
+ function p1(){
+   ver("https://drive.google.com/file/d/1cc5ldEnHHUpS-Wx9vWqxElyEtADk8Ahr/preview");
+ }
+ function p2(){
+   ver("https://drive.google.com/file/d/1cc5ldEnHHUpS-Wx9vWqxElyEtADk8Ahr/preview");
+ }
+ </script>
+
+
+
+<!-- Java Script Code Ended -->
+
+
 
 
 
