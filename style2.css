@@ -120,3 +120,81 @@ nav input:active {
 
 
 
+.button{
+  
+  color: white;
+  background-color: black;
+  
+}
+
+
+
+.hide{
+
+  width: 100%;
+  height: 25vh;
+ justify-content: space-between;
+ align-content: center;
+ text-align: center;
+ align-items: center;
+ align-self: center;
+
+ 
+}
+
+
+fuck button{
+  padding-top: 10px;
+  background-position: 100px 100px 100px;
+  
+  background-color: rgb(213,7,125) ;
+    outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: rgb(213,7,125);
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 250px;
+  color: rgb(18,201,194);
+  
+}
+
+
+
+
+
+.buttonn {
+   height: 8vh;
+  align-self: center;
+  padding-top: 10px;
+  background-position: 100px 100px 100px;
+  
+  
+    outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: #9f7f5e;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+   background: #9f7f5e;
+}
+
