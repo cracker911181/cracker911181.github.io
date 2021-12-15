@@ -39,6 +39,18 @@ header button{
 
 
 
+.wel{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#welcome{
+  font-size: 30px;
+  text-shadow: 10px 10px 10px;
+  font-weight: 100px;
+  color: rgb(65,25,14);
+}
+
 
 
 nav{
@@ -231,7 +243,7 @@ fuck button{
 
 #player_f{
   padding-top: 20vh ; /*22 */
-  padding-bottom: 70vh;
+  padding-bottom: 4vh;
   text-align: center;
 }
 
@@ -242,3 +254,443 @@ fuck button{
   box-shadow: 5px 5px 5px;
   box-shadow: color(red);
 }
+
+
+#ntg{
+  
+ height: 70vh;
+}
+
+
+
+
+#inputer{
+  height: 45px;
+  width: 75%;
+  padding-top: 0;
+  box-shadow: 5px 5px 5px 5px;
+  border-color: black;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+#ntg2{
+  height: 3px;
+  width: 100%;
+}
+
+
+
+.submit{
+  
+  height: 45px;
+  align-self: center;
+  padding-top: 10px;
+  background-position: 100px 100px 100px;
+  
+  
+  
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: #9e769e;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+    transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 85px;
+  
+   background: #9e769e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   border-color: #dadae1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  color: #333333;
+}
+
+
+
+
+nav button:active { 
+
+    transform: scale(0.98); 
+            
+}
+
+
+
+
+nav input {
+background-position: 100px 100px 100px;
+  
+  background-color: #77acf3;
+    outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: #77acf3;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  color: #dadae1;
+}
+
+
+nav input:active { 
+   transform: scale(0.98);
+}
+
+
+
+
+
+.button{
+  
+  color: white;
+  background-color: black;
+  
+}
+
+
+
+.hide{
+
+  width: 100%;
+  height: 25vh;
+ justify-content: space-between;
+ align-content: center;
+ text-align: center;
+ align-items: center;
+ align-self: center;
+
+ 
+}
+
+
+fuck button{
+  padding-top: 10px;
+  background-position: 100px 100px 100px;
+  
+  background-color: rgb(213,7,125) ;
+    outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: rgb(213,7,125);
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 250px;
+  color: rgb(18,201,194);
+  
+}
+
+
+
+
+
+.buttonn {
+   height: 50px;
+  align-self: center;
+  padding-top: 10px;
+  background-position: 100px 100px 100px;
+  
+  
+    outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: #9f7f5e;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+   background: #9f7f5e;
+}
+
+
+
+.buttonn2{
+  
+  height: 50px;
+  align-self: center;
+  padding-top: 10px;
+  background-position: 100px 100px 100px;
+  
+  
+    outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: #9e769e;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  
+  transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 100px;
+   background: #9e769e;
+
+}
+
+
+#player_f{
+  padding-top: 20vh ; /*22 */
+  padding-bottom: 4vh;
+  text-align: center;
+}
+
+
+#player{
+  border-color: black;
+  background-color: rgb(15,236,251);
+  box-shadow: 5px 5px 5px;
+  box-shadow: color(red);
+}
+
+
+#ntg{
+  
+ height: 70vh;
+}
+
+
+
+
+#inputer{
+  height: 45px;
+  width: 75%;
+  padding-top: 0;
+  box-shadow: 5px 5px 5px 5px;
+  border-color: black;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+#ntg2{
+  height: 3px;
+  width: 100%;
+}
+
+
+
+.submit{
+  
+  height: 45px;
+  align-self: center;
+  padding-top: 10px;
+  background-position: 100px 100px 100px;
+  
+  
+  
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+   border-block: none;
+   border-color: #9e769e;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+    transition: 0.2s all;
+	cursor: pointer;
+  font-weight: bold;
+  width: 85px;
+  
+   background: #9e769e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+
+
+
+
+#mega-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  cursor: default;
+  
+  z-index: 1;
+  will-change: width;
+}
+#mega-button > .tooltip {
+  padding: 5px 10px;
+  position: absolute;
+  left: 10px;
+  top: -9px;
+  transform: translateY(-100%);
+  white-space: nowrap;
+  background-color: #fff;
+  border-radius: 8px;
+  filter: drop-shadow(0 2px 2px rgba(120, 144, 156, 0.5));
+  box-shadow: inset 0 0 0 1px rgba(120, 144, 156, 0.1);
+  font-weight: 500;
+  color: #1e4989;
+  -webkit-animation: tooltip-hover;
+          animation: tooltip-hover;
+  /* @keyframes duration | easing-function | delay |
+  iteration-count | direction | fill-mode | play-state | name */
+  -webkit-animation: 1s ease-in-out 0s infinite alternate both tooltip-hover;
+          animation: 1s ease-in-out 0s infinite alternate both tooltip-hover;
+  transition: all 0.15s ease-out;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  will-change: opacity;
+}
+
+
+
+#mega-button::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  padding-top: 4px;
+  background: 100% 100%/250% 100% #fff linear-gradient(135deg, transparent 33%, #2c92c8 66%, #892cc8) no-repeat;
+  border-radius: 50%;
+  content:"🙂";
+  font-family: "Font Awesome 5 Pro";
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  transition: inherit;
+  box-sizing: border-box;
+  cursor: inherit;
+  box-shadow: 0 10px 20px -10px #1a237e;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  will-change: transform, background-color, box-shadow;
+}
+
+
+
+#mega-button:hover .tooltip, .modal:target ~ #mega-button .tooltip {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
