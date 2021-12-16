@@ -1,0 +1,25 @@
+
+
+<a href="" id="a">click here to download your file</a>
+<button onclick="download('file text', 'myfilename.txt', 'text/plain')">Create file</button>
+
+
+
+
+<script>
+  
+function download(data, filename, type) {
+    var file = new Blob([data], {type: type});
+    if (window.navigator.msSaveOrOpenBlob) // IE10+
+        window.navigator.msSaveOrOpenBlob(file, filename);
+    
+        var a = document.createElement("a"),
+                url = URL.createObjectURL(file);
+        a.href = url;
+        //document.write(url);
+        document.getElementById("a").href=url; 
+      
+    
+}
+  
+</script>
