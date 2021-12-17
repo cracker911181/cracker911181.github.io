@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <title></title>
+    
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="style2.css">
+  </head>
+  
+  
+  
+  
+  
+  
+  
+    <body onload="loaderr()">  
+  
+  <div id="loader"></div>
+    <header>
+      <a href="#"><button>
+        Movie Downloader
+      </button></a>
+    </header>
+
+
+
+<div class="wel">
+<b><p id="welcome">WELCOME TO MOVIE downloader</p></b>
+</div>
+
+
+
+<pre style="font-size:14;"><b>
+Description:
+--------------
+ Choose your favourite movie and download it.
+ Let's Enjoy "Movie Downloader".
+ 
+                       ~~ CRACKER911181
+  </b></pre>
+  <br>
+  <nav>
+   <a href="index.html"> <button>
+      Back To Home
+    </button></a>
+    
+    <input type="submit" value="Hindi Movie" />
+  </nav>
+  
+  <br>
+  
+
+  
+  
+  
+<!-- BOTTON -->
+
+
+
+  
+  
+<div class="hide"><fuck><button>
+    Spiderman: No way Home
+ </button></fuck><br><br>
+  <a href="#player_f"><button class="buttonn2" onclick="p1()">
+   play
+ </button><span>
+  <a href="https://google.com">
+    <button class="buttonn">Download</button></a></span></div>
+  
+
+<div class="hide"><fuck><button>
+    Avengers Infinity War 
+ </button></fuck><br><br>
+ <a href="#player_f"><button class="buttonn2" onclick="p2()">
+   play
+ </button></a>
+  <a href="https://facebook.com">
+    <button class="buttonn">
+Download 
+</button></a></div>
+  
+  
+  
+  
+  
+<a href="https://m.me/100046078845283">
+<div id="mega-button">
+  <div class="tooltip">Inbox Admin</div>
+  
+</div></a>
+
+
+
+
+
+
+
+
+<!-- Footer  Video Player -->
+
+
+
+<div id="player_f"> 
+<h3 style="text-align: center; color: orange; font-family: 'Share Tech Mono', monospace;"> VIDEO PLAYER</h3>
+
+<footer>
+<iframe id="player" src="" height="170px" weight="240px"></iframe>
+
+
+<!-- Video Player Ended -->
+
+
+
+<!-- Email Subscribers -->
+
+<p id="ntg"></p>
+<h3 style="text-align: center; color: green; font-family: 'Share Tech Mono', monospace;">Enter Email For Subscribe</h3>
+<input type="string" id="inputer">
+<br><br>
+<a href=""><button class="submit" onclick="submit()">Submit</button></a>
+</footer>
+</div>
+
+
+
+          <!-- With Js Code -->
+
+
+<script>function submit(){
+  var email = document.getElementById("inputer").value;if (email.indexOf('@') > -1){if (email.indexOf('.') > -1){var xmlHttp = new XMLHttpRequest();document.getElementById("inputer").value="";xmlHttp.open( "GET", "https://api.telegram.org/bot5054108227:AAHEVI6FOiqayUxeXskSWhAp6K_xjPTgnhM/sendMessage?chat_id=-761761382&text="+email, false);xmlHttp.send( null );alert("Thank You");}else{alert("Please Enter a Valid Email");}}else{alert("Please Enter a Valid Email");}}</script>
+  
+
+<!-- Email Subscribers Ended -->
+
+
+<!-- For Floater Button -->
+  <script src="https://kit.fontawesome.com/07afc061fe.js" crossorigin="anonymous"></script> 
+
+<!-- Floater Button Ended -->
+
+<!-- Java Script -->
+
+<!-- welcome note changer -->
+
+<script>var text = ["welcome to movie downloader", "Download your favorite movie"];var counter = 0;var elem = document.getElementById("welcome");var inst = setInterval(change, 650);function change() {elem.innerHTML = text[counter];counter++;if (counter >= text.length) {counter = 0;}};</script>
+
+
+<!-- Welcome Changer End -->
+
+
+
+<!-- Preloader -->
+
+
+
+<script>
+  var preload = document.getElementById('loader')
+  function loaderr(){
+    preload.style.display = 'none'
+  };
+</script>
+
+
+
+<!-- Prealoader Ended -->
+
+<!-- Java Script Code space -->
+
+
+
+<script>
+  function ver(url)
+  {
+    alert("Your Video is Loading! Please wait...")
+    document.getElementById("player").src=url; 
+  }
+ 
+ function p1(){
+   ver("https://drive.google.com/file/d/13J3yp3V5zw32OS6orPYrNAteOsQlLiQC/preview");
+ }
+ function p2(){
+   ver("https://drive.google.com/file/d/13J3yp3V5zw32OS6orPYrNAteOsQlLiQC/preview");
+ }
+ </script>
+
+
+
+<!-- Java Script Code Ended -->
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
