@@ -3,7 +3,7 @@
   <head>
     
      <meta meta name="viewport" content="width=device-width, user-scalable=no" />
-    <title></title>
+  <title></title>
     
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,9 +27,7 @@
 
 
   </head>
-<body onload="loaderr()">  
-  
-  <div id="loader"></div>
+  <body>
     
     <div class="mainner" id="top">
       <nav>
@@ -116,15 +114,19 @@ Copyright Disclimer:
   
   <script>
   
-  var colors = ["blue", "yellow", "cyan", "red", "green", "orange"];var currentColor = 0;var lis = document.querySelectorAll("#welcome p");function changeColor() {--currentColor;if (currentColor < 0) currentColor = colors.length -1;for (var i = 0; i < lis.length; i++) {lis[i].style.color = colors[(currentColor +i) % colors.length]}}setInterval(changeColor, 1000)
+  var colors = ["blue", "yellow", "cyan", "red", "green", "orange"]
+var currentColor = 0
+var lis = document.querySelectorAll("#welcome p")
+function changeColor() {
+  --currentColor
+  if (currentColor < 0) currentColor = colors.length -1
+  for (var i = 0; i < lis.length; i++) {
+    lis[i].style.color = colors[(currentColor +i) % colors.length]
+  }
+}
+setInterval(changeColor, 1000)
 </script>
 
 
-<script>
-  var preload = document.getElementById('loader')
-  function loaderr(){
-    preload.style.display = 'none'
-  };
-</script>
   </body>
 </html>
