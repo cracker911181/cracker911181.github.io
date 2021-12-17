@@ -21,8 +21,10 @@
   
   
   
-  <body>
-    
+  
+    <body onload="loaderr()">  
+  
+  <div id="loader"></div>
     <header>
       <a href="#"><button>
         Movie Downloader
@@ -100,6 +102,10 @@ Download
 
 
 
+
+
+
+
 <!-- Footer  Video Player -->
 
 
@@ -153,8 +159,20 @@ Download
 
 
 
+<!-- Preloader -->
 
 
+
+<script>
+  var preload = document.getElementById('loader')
+  function loaderr(){
+    preload.style.display = 'none'
+  };
+</script>
+
+
+
+<!-- Prealoader Ended -->
 
 <!-- Java Script Code space -->
 
