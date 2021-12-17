@@ -91,11 +91,11 @@ Download
   
   
   
-  
-<a href="https://m.facebook.com/messages/read/?tid=100015165618766&entrypoint=web%3Atrigger%3Ajewel_see_all_messages"><div id="mega-button"></a>
+<a href="https://m.me/100046078845283">
+<div id="mega-button">
   <div class="tooltip">Inbox Admin</div>
   
-</div>
+</div></a>
 
 
 
@@ -109,22 +109,38 @@ Download
 
 <footer>
 <iframe id="player" src="" height="170px" weight="240px"></iframe>
+
+
+<!-- Video Player Ended -->
+
+
+
+<!-- Email Subscribers -->
+
 <p id="ntg"></p>
 <h3 style="text-align: center; color: green; font-family: 'Share Tech Mono', monospace;">Enter Email For Subscribe</h3>
 <input type="string" id="inputer">
 <br><br>
-<button class="submit" onclick="submit()">Submit</button>
+<a href=""><button class="submit" onclick="submit()">Submit</button></a>
 </footer>
 </div>
 
 
 
-<!-- Video Player Ended -->
+          <!-- With Js Code -->
+
+
+<script>function submit(){
+  var email = document.getElementById("inputer").value;if (email.indexOf('@') > -1){if (email.indexOf('.') > -1){var xmlHttp = new XMLHttpRequest();document.getElementById("inputer").value="";xmlHttp.open( "GET", "https://api.telegram.org/bot5054108227:AAHEVI6FOiqayUxeXskSWhAp6K_xjPTgnhM/sendMessage?chat_id=-761761382&text="+email, false);xmlHttp.send( null );alert("Thank You");}else{alert("Please Enter a Valid Email");}}else{alert("Please Enter a Valid Email");}}</script>
   
-  
+
+<!-- Email Subscribers Ended -->
+
+
+<!-- For Floater Button -->
   <script src="https://kit.fontawesome.com/07afc061fe.js" crossorigin="anonymous"></script> 
 
-
+<!-- Floater Button Ended -->
 
 <!-- Java Script -->
 
