@@ -27,7 +27,9 @@
 
 
   </head>
-  <body>
+  <body onload="loaderr()">  
+  
+  <div id="loader"></div>
     
     <div class="mainner" id="top">
       <nav>
@@ -106,6 +108,15 @@ Copyright Disclimer:
     <!-- Java Script -->
     
     
+<script>
+  var preload = document.getElementById('loader')
+  function loaderr(){
+    preload.style.display = 'none'
+  };
+</script>
+
+
+
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
