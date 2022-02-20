@@ -498,7 +498,7 @@ a{
 }
 
 
-@media(max-width: 1980px){
+@media(max-width: 480px){
   #menu{
     display: block;
   }
