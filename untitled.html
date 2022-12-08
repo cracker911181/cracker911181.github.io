@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+     <meta name="viewport", content="width=device-width" initial-scale="1.0">
+        
+  <link type="text/css" href="index.css" rel="stylesheet">
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+
+<script src="https://kit.fontawesome.com/d2b0aea153.js" crossorigin="anonymous"></script>
+
+  </head>
+
+<body>
+   <nav>
+       
+     
+      <div class="navLink">
+          <ul>
+           <li id="menu" class="fa-solid fa-sun"></li>
+      
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT MYSELF</a></li>
+      <li><a href="#">PICTURES</a></li>
+      <li><a href="#">ACHIVEMENT</a></li>
+      <li><a href="#">MY ARTICLE</a></li>
+      </ul>
+      </div>
+      </nav>
+      
+      
+     <div class="welcome">
+     <img class="profile"   src="profile1.png">
+     <h1>Naimul Islam Manna</h1>
+    <p>Welcome To My Personal Blog</p>
+</div>
+
+<div class="aboutMe">
+    <h2>About MySelf</h2>
+    <p>Hey, this is Naimul Islam Manna. I am from Sarighat,Darbast Union, Jaintapur Upazila, Sylhet, Bangladesh. I am <span id="age">1</span> year's old. I am a inter 2nd year student of Jalalabad Cantonment Public School and College. I am also a coding learner like Python, C & C++ etc. I am aslo a basic graphic designer. I am a ex-student of Central Jainta High School.</p>
+</div>
+
+
+
+<div class="picture">
+    <h2>My Pictures</h2>
+   <i id="img_left" class="fa-solid fa-caret-left"></i> <img src="n3.png" alt="">
+    
+    <i id="img_right" class="fa-solid fa-caret-right"></i>
+</div>
+
+<div class="awerd">
+    <h2>Earned Awerd</h2>
+    <div class="awerded">
+        <img src="debate.png" alt="">
+        <h3>HEXA'S MAJORTILA
+Debate Competition Winner</h3>
+<p>I earned 'Debate Competition Winner'
+award from Hexa's Mejortila in
+Nobember 2021.</p>
+    </div>
+    
+    <div class="awerded">
+        <img src="typing.png" alt="">
+        <h3>HEXA'S MAJORTILA
+Typing Competition Winner</h3>
+<p>I earned 'Typing Competition Winner'
+award from Hexa's Mejortila in
+December 2021.</p>
+    </div>
+    
+    <div class="awerded">
+        <img src="best_performar.png" alt="">
+        <h3>HEXA'S MAJORTILA
+Best Performar</h3>
+<p>I earned 'Best Performar' award from
+Hexa's Mejortila in January 2022.</p>
+    </div>
+</div>
+
+<div class="article">
+    
+</div>
+
+
+
+
+    <!--  
+  <div id="preloader"> 
+    <div class="loader"></div> 
+    <div class="count">0</div>
+  </div>
+    
+  --> 
+
+   <script>    
+       
+      var dob = '20050117'; var year = Number(dob.substr(0, 4)); var month = Number(dob.substr(4, 2)) - 1; var day = Number(dob.substr(6, 2)); var today = new Date(); var age = today.getFullYear() - year; if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < day)) { age--; }
+      
+document.getElementById("age").innerHTML = age;
+   </script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>$(document).ready(function(){
+  var count=0;
+  var counter= setInterval(function() {
+    if(count<101){
+      $('.count').text(count+'%');
+      $('.loader').css('width', count+'%');
+      count++; 
+    }
+    else {
+      clearInterval(counter);
+    }
+  },80)
+});</script>
+
+
+<script>
+    
+   
+</script>
+  </body>
+</html>
